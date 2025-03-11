@@ -47,11 +47,11 @@
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:background="@drawable/circular_background">
-
+                android:background="@drawable/circular_background"
+                android:onClick="sendFile">
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="43dp"
+                    android:layout_height="46dp"
                     android:layout_gravity="center"
                     android:scaleType="centerInside"
                     android:src="@drawable/send_icon_png"
@@ -60,7 +60,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Send" />
+                android:text="Send"
+                android:onClick="sendFile"/>
         </LinearLayout>
 
         <LinearLayout
